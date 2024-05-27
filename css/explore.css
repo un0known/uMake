@@ -1,0 +1,78 @@
+@font-face{
+    font-family: mabrypro;
+    src: url(../fonts/Mabry-Pro-Medium.ttf);
+}
+body{
+    font-family: mabrypro !important;
+}
+
+
+/* ==========
+  navbar hover
+  ============*/
+
+  @media screen and (min-width:991px){
+    .d-down:hover .d-content{
+        display: block;
+    }
+}
+
+
+
+
+
+/* =========
+   1st page
+   =========== */
+.exp-lore{
+    width: 100% !important;
+    height: 350px !important;
+    border-radius: 5%;
+    overflow: hidden !important;
+}
+
+
+
+.gnews-sec{
+    width: 85% !important;
+}
+@media screen and (max-width:767px){
+    .gnews-sec{
+        width: 100% !important;
+    }
+}
+
+/* ===============
+  more from umake
+  =============== */
+
+  .more-umake img{
+    width: 20% !important;
+  }
+
+@media screen and (max-width:467px){
+    .more-umake{
+        display: grid !important;
+        grid-template-columns: auto !important;
+
+    }
+    .more-umake img{
+        width: 40% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+/* ===========
+   design in 3d 
+     ======== */
+
+     .de-sign{
+        background: #3742ad !important ;
+     }
+        
+     @media screen and (max-width:768px){
+        .de-sign{
+            margin: 0 !important;
+        }
+    }

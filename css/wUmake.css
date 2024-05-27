@@ -1,0 +1,23 @@
+@media screen and (max-width:992px){
+    .join-txt p{
+        width: 100% !important;
+    }
+
+    .infinite-creativity{
+        width: 100% !important;
+    }
+}
+
+/* ===========
+   design in 3d 
+     ======== */
+
+     .de-sign{
+        background: #3742ad !important ;
+     }
+        
+     @media screen and (max-width:768px){
+        .de-sign{
+            margin: 0 !important;
+        }
+    }

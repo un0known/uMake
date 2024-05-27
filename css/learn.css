@@ -1,0 +1,94 @@
+
+
+@font-face{
+    font-family: mabrypro;
+    src: url(../fonts/Mabry-Pro-Medium.ttf);
+}
+body{
+    font-family: mabrypro !important;
+}
+
+/* ==========
+  navbar hover
+  ============*/
+
+  @media screen and (min-width:991px){
+    .d-down:hover .d-content{
+        display: block;
+    }
+}
+
+
+/*  ==============
+      learn 3d design
+    ===================  */
+
+    @media screen and (max-width:991px){
+        .l-design{
+            padding: 0 !important;
+            margin: 0 !important;
+            width: 100% !important;
+            text-align: center !important;
+        }
+    }
+
+
+/* ============= 
+  learn basic
+  ============== */
+
+  .basic-all:hover{
+    box-shadow: 2px 2px 1px #6e6c6c;
+  }
+
+@media screen and (max-width:992px){
+  .learn-basic{
+    padding: 0 !important;
+
+  
+  }
+
+  .basic-content{
+    margin: 0 !important;
+  }
+
+  .basic-all{
+    padding: 5px !important;
+  }
+}
+
+@media screen and (max-width:768px){
+  .basic-all h4{
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width:357px){
+  .basic-all h4{
+    font-size: 12px !important;
+  }
+}
+
+
+
+.about-info{
+  height: 75px;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* ===========
+   design in 3d 
+     ======== */
+
+     .de-sign{
+      background: #3742ad !important ;
+   }
+      
+   @media screen and (max-width:768px){
+      .de-sign{
+          margin: 0 !important;
+      }
+  }

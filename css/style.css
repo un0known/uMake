@@ -1,0 +1,177 @@
+
+body{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+/*================ 
+navbar ul li hover
+================== */
+
+
+@font-face{
+    font-family: mabrypro;
+    src: url(../fonts/Mabry-Pro-Medium.ttf);
+}
+body{
+    font-family: mabrypro !important;
+}
+
+.nav-bar ul li a:hover{
+    color: red !important;
+}
+
+.d-content{
+    box-shadow: 0px 0px 5px 0px;
+    border: none !important;
+}
+
+
+
+@media screen and (min-width:991px){
+    .d-down:hover .d-content{
+        display: block;
+    }
+}
+
+/*=========================== 
+design in 3d == text responsiv
+=========================== */
+
+@media screen and (max-width:768px) {
+    .txt-response h1{
+        font-size: 50px !important;
+    }
+    .txt-response p{
+        font-size: 16px !important;
+        font-weight: 400 !important;
+    }
+}
+
+@media screen and (max-width:491px) {
+    .txt-response h1{
+        font-size: 30px !important;
+    }
+    .txt-response p{
+        font-size: 12px !important;
+        font-weight: 400 !important;
+    }
+
+    .txt-response button{
+        padding: 5px 11px !important;
+    }
+}
+
+/*=========================== 
+All the tools
+=========================== */
+
+@media screen and (max-width:1024px){
+
+    .de-sign {
+        padding-bottom: 0px !important;
+    }
+
+    .de-sign span{
+        display: none;
+    }
+
+    .de-sign h2{
+        background: none !important;
+        color: white !important;
+        font-size: 30px !important;
+        font-weight: 200 !important;
+        text-shadow: 2px 2px 4px #333;
+        position: unset !important;
+        padding: 0 !important;
+        padding-left: 0 !important;
+        text-wrap: nowrap;
+    }
+
+    .de-sign p{
+        padding-top: 5px !important;
+    }
+}
+
+@media screen and (max-width:991px){
+    .de-sign{
+        position: unset !important;
+        margin: 0px 60px !important;
+        font-size: 30px !important;
+    }
+
+    .de-sign h2{
+        
+    }
+}
+
+
+/*=============
+presenting ideas
+================ */
+
+@media screen and (max-width:768px){
+    .p-idea{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width:489px){
+
+    .content-all{
+        width: 100%  !important;
+    }
+    .idea-content{
+        width: 100% !important;
+    }
+    .idea-content p {       
+        font-size: 12px !important;
+    }
+
+    .idea-content h2{
+        font-size: 20px !important;
+    }
+}
+
+
+/* ===================
+    JOIN U MAKE
+    ================== */
+
+
+    @media screen and (max-width:992px){
+        .join-umake{
+            display: grid !important;
+            grid-template-columns: auto !important;
+        }
+
+        .umake-img{
+            padding-top: 50px !important;
+        }
+    }
+
+
+    /* =======================
+    discover u Make
+  ========================== */
+
+  @media screen and (max-width:441px){
+    .dis-cover{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+  }
+
+  /* ===========
+   design in 3d 
+     ======== */
+
+     .de-sign{
+        background: #3742ad !important ;
+     }
+        
+     @media screen and (max-width:768px){
+        .de-sign{
+            margin: 0 !important;
+        }
+    }

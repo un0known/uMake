@@ -1,0 +1,26 @@
+/* ===========
+   nav
+==============  */
+
+@media screen and (max-width:420px){
+    .sign-up{
+        display: grid !important;
+        grid: auto !important;
+        font-size: 13px !important;
+
+    }
+
+    .sign-up button{
+        text-align: end !important;
+        padding-top: 0 !important;
+    }
+}
+
+
+
+@media screen and (max-width:576px){
+    .get-start h1{
+        padding-top: 20px !important;
+        padding-bottom: 30px !important;
+    }
+}
